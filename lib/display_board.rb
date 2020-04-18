@@ -1,6 +1,4 @@
-WIN_COMBINATIONS = [0,1,2], [3,4,5]
 
-board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 def display_board(board)
   puts "#{board[0]}|#{board[1]}|#{board[2]}"
@@ -11,4 +9,3 @@ def display_board(board)
   
 end
 
-display_board(board)
